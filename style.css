@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card {
+  width: 375px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 2);
+  position: relative;
+}
+
+.main-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.right-container {
+  margin: 1rem auto;
+  padding: 1rem 2.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.big-para {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.-para {
+  margin: 0.5rem auto;
+  color: hsl(212, 23%, 69%);
+  line-height: 18px;
+}
+
+.profile-container {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-detail-container {
+  margin: 0.75rem auto;
+  padding: 2rem auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 0.9rem;
+  color: hsl(214, 17%, 51%);
+  font-weight: 700;
+}
+
+.date {
+  color: hsl(212, 23%, 69%);
+  font-size: 0.9rem;
+}
+
+.share-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.75rem;
+  border-radius: 50%;
+  background-color: hsl(210, 46%, 95%);
+  float: right;
+  display: block;
+  margin-top: -2rem;
+  transition: 0.3s;
+}
+
+.share-icon:hover {
+  transform: scale(1.05) translateY(-5px);
+  transition: 0.3s;
+}
+
+.share {
+  margin-top: -1rem;
+  cursor: pointer;
+}
+
+
+.share-icon {
+  letter-spacing: 3px;
+  padding-right: 1rem;
+  font-size: 1rem;
+  color: white;
+}
